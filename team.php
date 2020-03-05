@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Team</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" href="images/osoc_blue.png" type="image/">
+  <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="ihover.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Jura&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+  <style type="text/css">
+  body
+  {
+  	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('images/back3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    font-size:15px;
+    overflow-x: hidden;
+    font-family: 'Jura', sans-serif;
+    color: #fff;
+  }
+    .navbar-inverse li a
+    {
+      color: #fff !important;
+      font-family: 'Jura', sans-serif;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size:15px;
+      
+    }
+    .navbar-inverse li a:hover
+    {
+      border-bottom: 2px solid #812044;
+    }
+    @media only screen and (max-width: 320px) 
+    {
+       .navbar-toggle
+        {
+          position: relative;
+          float: right;
+          padding: 9px 10px;
+          margin-top: 8px;
+         margin-right:20px;
+         margin-bottom: 8px;
+         background-color: transparent;
+         background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        }
+    }
+
+    .box{
+        color: #fff;
+        padding: 20px;
+        display: none;
+        margin-top: 20px;
+        background-color: transparent;
+    }
+
+  </style>
+  
+</head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-static-top example6" style="background-color: transparent;border:none;">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar6">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand animated slideInDown" href="#" onclick="window.open('https://www.nitt.edu/')"></a>
+      </div>
+      <div id="navbar6" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right animated slideInDown" style="padding: 15px;">
+          <li><a href="index.php">Home</a></li>
+          <li><a href="events.php">Events</a></li>
+          <li><a href="team.php">Team</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="contact.php">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="row">
+  <div class="col-md-4"></div>
+    <div class="col-md-4 animated zoomIn" align="center">
+      <div class="ih-item circle colored effect10 bottom_to_top">
+        <a href="#">
+        <div class="img"><img src="images/B.Janet.jpeg" alt="img" ></div>
+        <div class="info">
+          <h5>Dr.(Mrs.) B. Janet</h5>
+          <p>Staff Adviser</p>
+        </div>
+      </a>
+      </div>
+  </div>
+  <div class="col-md-4" align="right">
+    <div>
+        <select style="background: linear-gradient(to right, #000000 0%, #53346D 51%, #000000 100%);border:1px solid #000;width:30%;font-family: 'Jura', sans-serif;color:#fff;">
+            <option value="2k21" style="background-color: transparent;color: #000;">Batch 2k21</option>
+            <option value="2k20" style="background-color: transparent;color: #000;">Batch 2k20</option>
+            <option value="2k19" style="background-color: transparent;color: #000;">Batch 2k19</option>
+        </select>
+    </div>
+  </div>
+</div>
+<div class="row">
+    <div class="box 2k21 row animated zoomIn">
+      <div class="row">
+        <div class="col-md-3" align="center">
+           <div class="ih-item circle colored effect10 bottom_to_top">
+              <a href="#">
+              <div class="img"><img src="images/Rohit.jpeg" alt="img" ></div>
+                <div class="info">
+                  <h5>Rohit Bairagi</h5>
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="col-md-3" align="center">
+          <div class="ih-item circle colored effect10 bottom_to_top">
+              <a href="#">
+              <div class="img"><img src="images/swapnil.jpg" alt="img" ></div>
+                <div class="info">
+                  <h5>Swapnil Gupta</h5>
+                  
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="col-md-3" align="center">
+            <div class="ih-item circle colored effect10 bottom_to_top">
+              <a href="#">
+              <div class="img"><img src="images/ankur.jpg" alt="img" ></div>
+                <div class="info">
+                  <h5>Ankur Rana</h5>
+                  
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="col-md-3" align="center">
+            <div class="ih-item circle colored effect10 bottom_to_top">
+              <a href="#">
+              <div class="img"><img src="images/R  (2).jpg" alt="img" ></div>
+                <div class="info">
+                  <h5>Ruchita Nagar</h5>
+                  
+                </div>
+              </a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-3" align="center">
+            <div class="ih-item circle colored effect10 bottom_to_top">
+              <a href="#">
+              <div class="img"><img src="images/RA.jpg" alt="img" ></div>
+                <div class="info">
+                  <h5>Richa Agarwal</h5>
+                  
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="col-md-3" align="center">
+            <div class="ih-item circle colored effect10 bottom_to_top">
+              <a href="#">
+              <div class="img"><img src="images/vaibhav vikas.jpg" alt="img" ></div>
+                <div class="info">
+                  <h5>Vaibhav Vikas</h5>
+                  
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="col-md-3" align="center">
+            <div class="ih-item circle colored effect10 bottom_to_top">
+              <a href="#">
+              <div class="img"><img src="images/Kunal.jpg" alt="img" ></div>
+                <div class="info">
+                  <h5>Kunal Bhavsar</h5>
+                  
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="col-md-3" align="center">
+            <div class="ih-item circle colored effect10 bottom_to_top">
+              <a href="#">
+              <div class="img"><img src="images/85.jpg" alt="img" ></div>
+                <div class="info">
+                  <h5>Vipin Kumar Niranjan</h5>
+                  
+                </div>
+              </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box 2k20 row animated zoomIn">
+      <div class="row">
+        <div class="col-md-3" align="center">
+           <div class="ih-item circle colored effect10 bottom_to_top">
+              <a href="#">
+              <div class="img"><img src="images/ag.jpg" alt="img" ></div>
+                <div class="info">
+                  <h5>Aditya Gupta</h5>
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="col-md-3" align="center">
+          <div class="ih-item circle colored effect10 bottom_to_top">
+              <a href="#">
+              <div class="img"><img src="images/KA.jpg" alt="img" ></div>
+                <div class="info">
+                  <h5>KSHITIZ ARORA</h5>
+                  
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="col-md-3" align="center">
+            <div class="ih-item circle colored effect10 bottom_to_top">
+              <a href="#">
+              <div class="img"><img src="images/Ankita.jpg" alt="img" ></div>
+                <div class="info">
+                  <h5>Ankita Gupta</h5>
+                  
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="col-md-3" align="center">
+            <div class="ih-item circle colored effect10 bottom_to_top">
+              <a href="#">
+              <div class="img"><img src="images/nj.png" alt="img" ></div>
+                <div class="info">
+                  <h5>Namrata Jaiswal</h5>
+                  
+                </div>
+              </a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-3" align="center">
+            <div class="ih-item circle colored effect10 bottom_to_top">
+              <a href="#">
+              <div class="img"><img src="images/ms.jpg" alt="img" ></div>
+                <div class="info">
+                  <h5>MAYANK SONGARA</h5>
+                  
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="col-md-3" align="center">
+            <div class="ih-item circle colored effect10 bottom_to_top">
+              <a href="#">
+              <div class="img"><img src="images/pg.jpg" alt="img" ></div>
+                <div class="info">
+                  <h5>PRAJJWAL GUPTA</h5>
+                  
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="col-md-3" align="center">
+            <div class="ih-item circle colored effect10 bottom_to_top">
+              <a href="#">
+              <div class="img"><img src="images/sl.jpg" alt="img" ></div>
+                <div class="info">
+                  <h5>SURENDRA LODHI</h5>
+                  
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="col-md-3" align="center">
+            
+        </div>
+      </div>
+    </div>
+    <div class="box 2k19 row animated zoomIn">
+      <div class="row">
+        <div class="col-md-3" align="center">
+           <div class="ih-item circle colored effect10 bottom_to_top">
+              <a href="#">
+              <div class="img"><img src="images/3.jpg" alt="img" ></div>
+                <div class="info">
+                  <h5>Shubham Sharma</h5>
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="col-md-3" align="center">
+          <div class="ih-item circle colored effect10 bottom_to_top">
+              <a href="#">
+              <div class="img"><img src="images/HB.jpg" alt="img" ></div>
+                <div class="info">
+                  <h5>HARMIT SINGH</h5>
+                  
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="col-md-3" align="center">
+            <div class="ih-item circle colored effect10 bottom_to_top">
+              <a href="#">
+              <div class="img"><img src="images/15.jpg" alt="img" ></div>
+                <div class="info">
+                  <h5>PAL SANJAY</h5>
+                  
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="col-md-3" align="center">
+            <div class="ih-item circle colored effect10 bottom_to_top">
+              <a href="#">
+              <div class="img"><img src="images/4.jpg" alt="img" ></div>
+                <div class="info">
+                  <h5>ATHEEK MOHAMMAD</h5>
+                  
+                </div>
+              </a>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-3" align="center">
+            <div class="ih-item circle colored effect10 bottom_to_top">
+              <a href="#">
+              <div class="img"><img src="images/11.png" alt="img" ></div>
+                <div class="info">
+                  <h5>KHUSHALI PORWAL</h5>
+                  
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="col-md-3" align="center">
+            <div class="ih-item circle colored effect10 bottom_to_top">
+              <a href="#">
+              <div class="img"><img src="images/10.png" alt="img" ></div>
+                <div class="info">
+                  <h5>DIMPLE MAHESHWARI</h5>
+                  
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="col-md-3" align="center">
+            <div class="ih-item circle colored effect10 bottom_to_top">
+              <a href="#">
+              <div class="img"><img src="images/16.jpg" alt="img" ></div>
+                <div class="info">
+                  <h5>VIVEK XESS</h5>
+                  
+                </div>
+              </a>
+          </div>
+        </div>
+        <div class="col-md-3" align="center">
+            
+        </div>
+      </div>
+    </div>
+</div>
+  <script type="text/javascript">
+     $(window).scroll(function() {
+    if($(this).scrollTop() > 50) 
+    {
+        $('.opaque-navbar').addClass('opaque');
+    } else {
+        $('.opaque-navbar').removeClass('opaque');
+    }
+  });
+
+  $(document).ready(function(){
+    $("select").change(function(){
+        $(this).find("option:selected").each(function(){
+            var optionValue = $(this).attr("value");
+            if(optionValue){
+                $(".box").not("." + optionValue).hide();
+                $("." + optionValue).show();
+            } else{
+                $(".box").hide();
+            }
+        });
+    }).change();
+});
+
+  </script>
+</body>
+
+</html>

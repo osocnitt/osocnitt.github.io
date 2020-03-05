@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Events</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" href="images/osoc_blue.png" type="image/">
+  <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Jura&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+   <script type="text/javascript">
+    function showDiv(idInfo)
+     {
+          var sel = document.getElementById('divLinks').getElementsByTagName('section');
+          for (var i=0; i<sel.length; i++) { sel[i].style.display = 'none'; }
+          document.getElementById('container'+idInfo).style.display = 'block';
+          return false;
+     }
+  </script>
+
+  <style type="text/css">
+  body
+  {
+  	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('images/back3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    font-size:15px;
+    overflow-x: hidden;
+    color: #fff;
+    font-family: 'Jura', sans-serif;
+  }
+   .navbar-inverse li a
+    {
+      color: #fff !important;
+      font-family: 'Jura', sans-serif;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size:15px;
+      
+    }
+    .navbar-inverse li a:hover
+    {
+      border-bottom: 2px solid #812044;
+    }
+    .txt
+    {
+      padding:2%;
+      font-size:18px;
+    }
+    @media only screen and (max-width: 320px) 
+    {
+       .navbar-toggle
+        {
+          position: relative;
+          float: right;
+          padding: 9px 10px;
+          margin-top: 8px;
+         margin-right:20px;
+         margin-bottom: 8px;
+         background-color: transparent;
+         background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        }
+         .txt
+        {
+          padding:6%;
+          font-size:15px;
+       }
+    }
+    .btn-primary
+    {
+      background: linear-gradient(to right, #000000 0%, #53346D 51%, #000000 100%);
+      border:1px solid #000;
+      width: 80%;
+      font-family: 'Jura', sans-serif;
+      margin-top: 3px;
+
+    }
+    .btn-primary:hover
+    {
+      background-position: right center; 
+      border:1px solid #fff;
+   }
+
+  </style>
+  
+</head>
+ 
+<body>
+<nav class="navbar navbar-inverse navbar-static-top example6" style="background-color: transparent;border:none;">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar6">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand animated slideInDown" href="#" onclick="window.open('https://www.nitt.edu/')"></a>
+      </div>
+      <div id="navbar6" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right animated slideInDown" style="padding: 15px;">
+          <li><a href="index.php">Home</a></li>
+          <li><a href="events.php">Events</a></li>
+          <li><a href="team.php">Team</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="contact.php">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="container" style="color:#fff;">
+  <div class="row">
+    <div class="col-md-3"></div>
+    <div class="col-md-2" align="center">
+      <a href="#" class="btn btn-primary" role="button" onclick="return showDiv('1')"><b>TECHNO-FANIA</b></a>
+    </div>
+    <div class="col-md-2" align="center">
+       <a href="#" class="btn btn-primary" role="button" onclick="return showDiv('2')"><b>WORKSHOPS</b></a>
+    </div>
+    <div class="col-md-2" align="center">
+      <a href="#" class="btn btn-primary" role="button" onclick="return showDiv('3')"><b>PROJECTS</b></a>
+    </div>
+    <div class="col-md-3"></div>
+  </div>
+  <div id="divLinks" style="border:1px solid #4732a2;border-radius: 0;margin-top:5%;">
+    <section id="container1">
+      <div class="row">
+        <div class="col-md-6" id="main-slider1">
+            <div class="slider-wrapper"><!-- innermost wrapper element -->
+              <img src="images/t7.jpg" class="slide" /><!-- slides -->
+              <img src="images/t2.jpg" class="slide" />
+              <img src="images/t3.jpg" class="slide" />
+              <img src="images/t6.jpg" class="slide" /><!-- slides -->
+              <img src="images/t13.jpg" class="slide" />
+              <img src="images/t14.jpg" class="slide" />
+              <img src="images/t17.jpg" class="slide" /><!-- slides -->
+              <img src="images/t11.jpg" class="slide" />
+              <img src="images/t20.jpg" class="slide" />
+              <img src="images/t22.jpg" class="slide" />
+              <img src="images/t23.jpg" class="slide" />
+
+            </div>
+        </div>
+        <div class="col-md-6">
+          <h2 align="center" style="color:#03c1ef;font-weight: bold;font-family: 'Jura', sans-serif;">Techno-fania</h2>
+          <p>Technofania is an Inter-Department technical event and competition, aimed at providing a platform for the students of NIT Trichy to transform their ideas into tangible creations and showcase their innovations to the outside world. .</p>
+        </div>
+      </div>
+    </section>
+    <section id="container2">
+      <div class="row">
+         <div class="col-md-6" id="main-slider2">
+            <div class="slider-wrapper"><!-- innermost wrapper element -->
+              <img src="images/w1.jpg" class="slide" /><!-- slides -->
+              <img src="images/w2.jpg" class="slide" />
+              <img src="images/w3.jpg" class="slide" />
+               <img src="images/w7.jpeg" class="slide" />
+              <img src="images/w4.jpeg" class="slide" /><!-- slides -->
+              
+          
+
+            </div>
+        </div>
+        <div class="col-md-6">
+          <h2 align="center" style="color:#03c1ef;font-weight: bold;font-family: 'Jura', sans-serif;">Workshops</h2>
+          <p>This event posses a workshop on Web Extensions which will : Let you gain the knowledge of development of add-ons. Creates a new dimension of work for all. Provides you knowledge of how web extensions work.<br>About Open Source. How to work on Linux(Ubuntu, Mint, Kali) .Basic knowledge of Linux. Basic commands used in Linux .How Linux is better than windows.<br>This workshop taken By Palash Maran and volunteered by MCA 2nd year.</p>
+        </div>
+      </div>
+    </section>
+    <section id="container3">
+      <div class="row">
+        <div class="col-md-6" id="main-slider3">
+            <div class="slider-wrapper"><!-- innermost wrapper element -->
+              <img src="images/p1.jpg" class="slide" /><!-- slides -->
+              <img src="images/p2.jpg" class="slide" />
+              <img src="images/p3.jpg" class="slide" />
+              <img src="images/p5.jpg" class="slide" />
+            </div>
+        </div>
+        <div class="col-md-6">
+          <h2 align="center" style="color:#03c1ef;font-weight: bold;font-family: 'Jura', sans-serif;">Projects in Pragyan</h2>
+          <p>Content About Projects.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+</div>
+
+
+  <script type="text/javascript">
+    window.onload = function() { showDiv('1'); }
+
+     $(window).scroll(function() {
+    if($(this).scrollTop() > 50) 
+    {
+        $('.opaque-navbar').addClass('opaque');
+    } else {
+        $('.opaque-navbar').removeClass('opaque');
+    }
+  });
+  
+  (function() {
+  
+  function Slideshow( element ) {
+    this.el = document.querySelector( element );
+    this.init();
+  }
+  
+  Slideshow.prototype = {
+    init: function() {
+      this.wrapper = this.el.querySelector( ".slider-wrapper" );
+      this.slides = this.el.querySelectorAll( ".slide" );
+      this.previous = this.el.querySelector( ".slider-previous" );
+      this.next = this.el.querySelector( ".slider-next" );
+      this.index = 0;
+      this.total = this.slides.length;
+      this.timer = null;
+      
+      this.action();
+      this.stopStart(); 
+    },
+    _slideTo: function( slide ) {
+      var currentSlide = this.slides[slide];
+      currentSlide.style.opacity = 1;
+      
+      for( var i = 0; i < this.slides.length; i++ ) {
+        var slide = this.slides[i];
+        if( slide !== currentSlide ) {
+          slide.style.opacity = 0;
+        }
+      }
+    },
+    action: function() {
+      var self = this;
+      self.timer = setInterval(function() {
+        self.index++;
+        if( self.index == self.slides.length ) {
+          self.index = 0;
+        }
+        self._slideTo( self.index );
+        
+      }, 3000);
+    },
+    stopStart: function() {
+      var self = this;
+      self.el.addEventListener( "mouseover", function() {
+        clearInterval( self.timer );
+        self.timer = null;
+        
+      }, false);
+      self.el.addEventListener( "mouseout", function() {
+        self.action();
+        
+      }, false);
+    }
+    
+    
+  };
+  
+  document.addEventListener( "DOMContentLoaded", function() {
+    
+    var slider = new Slideshow( "#main-slider1" );
+    
+  });
+ document.addEventListener( "DOMContentLoaded", function() {
+    
+    var slider = new Slideshow( "#main-slider2" );
+    
+  });
+   document.addEventListener( "DOMContentLoaded", function() {
+    
+    var slider = new Slideshow( "#main-slider3" );
+    
+  });
+  
+  
+})();
+ 
+
+  </script>
+</body>
+
+</html>
